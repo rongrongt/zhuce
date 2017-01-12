@@ -1,0 +1,430 @@
+
+
+
+
+
+.shoucangjia{
+	display: inline-block;
+	float:left;
+}
+
+
+.shoucangjia:hover .wjx{
+	transform: rotate(720deg);
+}
+
+
+.header-sc a:hover{
+	text-decoration:underline;
+	color:#f00;
+
+}
+
+
+.header{
+	height: 30px;
+	line-height: 30px;
+    background: #FAFAFA;
+}    
+
+
+.header-sc{
+
+	width: 990px;
+    margin:0 auto;
+
+}
+
+
+.wjx{
+	display: inline-block;
+	background-position: -90px -23px;
+	width:13px;
+	height: 13px;
+	transition: transform 0.2s ease-in 0s;
+}
+
+.header-cont{
+	display: inline-block;
+	float: right;
+
+}
+.cont-li{
+	padding:0 0 0 12px;
+}
+.cont-khfw{
+	display: inline-block;
+	width:60px;
+	text-align: center;
+}
+
+.xxsg{
+	margin-left: 11px;
+	height:12px;
+	color:#ddd;
+}
+.xjt{
+	display: inline-block;
+	width: 7px;
+    height: 4px;
+    background-position: -95px -55px;
+    transition: transform 0.1s;/*动画，动变形 0.1秒*/
+}
+
+.cont-li:hover .xjt{
+	transform: rotate(180deg);/*变形，变180度*/
+}
+.cont-li:hover .dd{
+	display: block;
+}
+
+
+.dd{
+	
+	width:60px;
+	position: absolute;
+	display: none;
+	background: #fff;
+}
+
+.dd a{
+	display: block;
+	line-height: 30px;
+	}
+
+.cont-khfw:hover{
+	background: #fff;
+
+}
+
+
+.cont-wzdh{
+	
+}
+.wzdh-ts{
+	display: none;
+	position: absolute;
+	margin-left: -172px;
+	padding: 10px;
+	line-height: 22px;
+	background: #fff;
+}
+
+.ts{
+	float: left;
+	width:70px;
+}
+
+.qixia{
+	width:70px;
+
+	float: left;
+}
+
+.qy{
+	width:70px;
+
+	float: left;
+}
+
+.cont-wzdh:hover{
+	background: #fff;
+}
+.cont-wzdh:hover .wzdh-ts{
+	display: block;
+}
+
+.log-zc{
+	width:990px;
+	height:60px;
+	margin: 10px auto;
+}
+
+
+.tab{
+	width: 690px;
+	padding: 0 10px 0 230px;
+	margin: 0 auto;
+}
+
+.gr-user,
+.qy-user,
+.gj-user{
+	display: inline-block;
+	width:100px;
+	height: 30px;
+	padding: 5px;
+	font-size: 14px;
+	line-height: 28px;
+	color:#333;
+	border:1px solid #ddd;
+	background: #f7f7f7;
+	margin-right: 5px;
+	text-align: center;
+
+}
+.qy-user{
+	background:#FFF;
+	color:red;
+	font-weight:700;
+}
+
+.gj-user{
+	
+	width:200px;
+}
+
+.have-go{
+	display: inline-block;
+	margin-left: 80px;
+	vertical-align: bottom;
+
+
+}
+.have-go a{
+	color:red;
+}
+.mc{
+	width: 990px;
+	height: 297px;
+	padding-top: 20px;
+	margin: 0 auto;
+	background: url(https://reg.jd.com/misc/skin/df/i/reg_bg.gif) #fff repeat-x 0 20px;
+	border: 1px solid #e9e9ea;
+
+}
+
+.more-div{
+	padding: 20px 10px;
+	border: 1px solid #e9e9ea;
+}
+
+.a-more{
+	float: right;
+}
+
+.more-p{
+	display: inline;
+}
+
+.big-form{
+	width:990px;
+	margin: 0 auto;
+	border: 1px solid #e9e9ea;
+
+}
+
+.account{
+	padding: 10px 20px ;
+	font-size: 14px;
+	height: 28px
+	line-height:28px;
+	background: rgb(247, 247, 247);
+}
+
+.item-box{
+	background: #fff;
+}
+
+.item{
+	height:58px;
+	padding: 10px;
+}
+.label b{
+	color:red;
+	vertical-align: -3px;
+
+}
+
+.label{
+	float: left;
+	height: 34px;
+	line-height: 34px;
+	width: 290px;
+    text-align: right;
+    font-size: 14px;
+    color: #999999;
+    padding-right: 10px;
+}
+
+.item input{
+	float: left;
+	width:240px;
+	height: 16px;
+	padding: 9px 25px 9px 5px;
+}
+
+.input-log{
+	display: inline-block;
+	width:16px;
+	height: 16px;
+	padding: 2px;
+	background:url(https://reg.jd.com/misc/skin/df/i/one4.jpg) no-repeat;
+	float: left;
+	margin-left: -20px;
+	margin-top:10px;
+}
+
+.input-password{
+	background:url(https://reg.jd.com/misc/skin/df/i/one5.jpg) no-repeat;
+}
+
+.check{
+	float: left;
+	width:330px;
+	
+	line-height: 34px;
+	background: #fafafa;
+	
+	margin-left: 10px; 
+
+}
+
+.tips{
+	display: none;
+}
+
+.tips1,
+.tips4,
+.tips7{
+	background: #FAFAFA;
+	border:1px solid #ddd;
+	
+	text-indent: 10px;
+}
+.tips3,
+.tips5,
+.tips8{
+	background: #ffebeb;
+    border: 1px solid #ffbdbe;
+	color:red;
+	text-indent: 10px;
+}
+
+.safe{
+	display: none;
+	padding-top:5px;
+	clear:both;
+	padding-left: 300px;
+	
+}
+
+.safe label{
+	font-size: 15px;
+	border: 1px solid #ffbdbe;
+}
+.safe span{
+	text-align: center;
+	display: inline-block;
+	width: 40px;
+	line-height: 15px;
+	background: #fff;
+	border:1px solid #ffbdbe;
+	vertical-align: 2px;
+}
+
+.item-check{
+	height:38px;
+	padding: 10px;
+}
+.checkbox{
+	clear:both;
+	display: inline-block;
+
+	
+}
+
+.checkbox input{
+
+	width:12px;
+	height:12px;
+	margin-top: 12px;
+}
+
+.abc{
+	float: left;
+	width:330px;
+	
+	line-height: 34px;
+	
+	
+	margin-left: 10px; 
+}
+
+.check-firm,
+.check-name{
+	
+	line-height: 15px;
+
+	display: none;
+	border:1px solid #ffbdbe;
+	height: 34px;
+	background: #ddd;
+
+}
+.check-name{
+	line-height: 34px;
+}
+
+.input-firm:hover+.check-firm{
+	display: block;
+}
+
+.input-name:hover+.check-name{
+	display: block;
+}
+
+
+
+
+.t-phone2{
+	background: url(https://reg.jd.com/misc/skin/df/i/sucess.png) no-repeat;
+	width:22px;
+	height:22px;
+	float: left;
+	display: none;
+	margin-left: -22px;
+	margin-top: 10px;
+}
+
+select{ 
+	width: 150px;
+	 margin-top:5px;
+	 height:34px; 
+	 border:1px solid #cccccc;
+	 font-size:14px;
+	 color: #999;
+	 padding:6px 0;
+}
+
+.item .label-message,
+.message{
+	width: 150px;
+	padding: 10px;
+	line-height: 25px;
+}
+
+.inform{
+	text-align: center;
+	line-height: 25px;
+}
+
+.inform button{
+	width:300px;
+	padding: 10px;
+	background: red; 
+	color:#fff;
+	font-size: 20px;
+}
+
+.footer{
+	width:990px;
+	margin: 0 auto;
+	padding: 20px;
+	text-align: center;
+
+}
+.footer-s{
+	padding: 0 10px;
+	
+}
